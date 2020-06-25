@@ -25,8 +25,6 @@ public:
                     if(i + w.size() <= n && memcmp(&s[i], &w[0], w.size())==0)
                     {
                         dp[i+w.size()] = true;
-                        if(n==(i+w.size()))
-                            return dp[n];
                     }
 
             }
