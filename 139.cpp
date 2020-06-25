@@ -34,11 +34,11 @@ public:
         return dp[n];
     }
 };
-int main() {
-    Solution S;
-    vector<string> wordDict = {"apple","pen"};
-    string s = "applepenapple";
-    bool r = S.wordBreak(s,wordDict);
-    std::cout<<r<<endl;
-    return 0;
-}
+//int main() {
+//    Solution S;
+//    vector<string> wordDict = {"apple","pen"};
+//    string s = "applepenapple";
+//    bool r = S.wordBreak(s,wordDict);
+//    std::cout<<r<<endl;
+//    return 0;
+//}
