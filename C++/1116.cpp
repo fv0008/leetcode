@@ -100,7 +100,7 @@ public:
             }
     }
 };
-int main()
-{
-    ZeroEvenOdd S(6);
-}
+//int main()
+//{
+//    ZeroEvenOdd S(6);
+//}
