@@ -47,10 +47,10 @@ public:
         return addlist;
     }
 };
-int main()
-{
-    Solution S;
-    vector<int> nums = {1,1,1,1,1};
-    auto r = S.runningSum(nums);
-    //std::cout<<r<<endl;
-}
+//int main()
+//{
+//    Solution S;
+//    vector<int> nums = {1,1,1,1,1};
+//    auto r = S.runningSum(nums);
+//    //std::cout<<r<<endl;
+//}
