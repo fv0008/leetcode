@@ -1,0 +1,14 @@
+{
+    "configurations": [
+    {
+        "name": "Launch Program",
+        "program": "${workspaceFolder}/LCP 14.js",
+        "request": "launch",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "pwa-node"
+    }
+    ]
+}
+}
