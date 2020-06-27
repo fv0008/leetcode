@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 #include <thread>
-//#include <zconf.h>
+#include <zconf.h>
 #include <math.h>
 
 using namespace std;
