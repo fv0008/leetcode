@@ -1,6 +1,4 @@
-* @param {character[][]} matrix
-* @return {number}
-*/
+
 var maximalSquare = function(matrix) {
    var yyy = 0
    var xxx = 0
