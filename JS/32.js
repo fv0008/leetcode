@@ -1,3 +1,5 @@
+//这应该是偷懒了
+
 var longestValidParentheses = function(s) {
     var tsize = 0
     var size = s.length
