@@ -4,7 +4,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/63.js",
+            "program": "${workspaceFolder}/interview.16.11.js",
             "skipFiles": [
                 "<node_internals>/**"
             ]
