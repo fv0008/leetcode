@@ -3,4 +3,4 @@ project(LeetCode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled C++/447.cpp)
+add_executable(untitled C++/447.cpp C++/26.cpp)
