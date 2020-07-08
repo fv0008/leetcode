@@ -4,7 +4,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/26.js",
+            "program": "${workspaceFolder}/27.js",
             "skipFiles": [
                 "<node_internals>/**"
             ]
