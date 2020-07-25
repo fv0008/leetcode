@@ -24,6 +24,10 @@ INSERT INTO `qc` VALUES (1,2,10),(1,3,2),(1,8,2),(2,4,2),(2,5,5),(2,6,2),(2,9,2)
 UNLOCK TABLES;
 
 select
-      t1.userid,min(t1.charpter ) as begin,max(t1.charpter ) as end,sum(t1.ltime) as timelong
+   t1.userid,min(t1.charpter ) as begin,max(t1.charpter ) as end,max(t1.charpter )-min(t1.charpter )+1 as chapters,sum(t1.ltime) as timelong
 from (select * from qc as q where exists(select qc.charpter from qc where charpter=q.charpter+1 and q.userid=userid) or exists(select qc.charpter from qc where charpter=q.charpter-1 and q.userid=userid)) t1
-group by t1.userid
+group by t1.userid order by timelong desc
+
+/*
+最终是阅读章节和时间的总长度，如果求章节最长，order by timelong desc 替换成 order by  chapters desc
+*/
